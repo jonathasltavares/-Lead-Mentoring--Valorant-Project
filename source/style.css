@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px;
+    background-color: rgb(17, 16, 16);
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color: white;
+}
+.cabecalho-perfil{
+    gap:32px;
+    margin-left: 720px;
+}
+.cabecalho-perfil-item{
+    color: white;
+}
