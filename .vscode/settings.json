@@ -1,0 +1,12 @@
+{
+    "totvsLanguageServer.welcomePage": false,
+    "files.associations": {
+        "*.html": "njk"
+      },
+      "emmet.includeLanguages": {
+        "njk": "html"
+      },
+      "material-icon-theme.files.associations": {
+        "*.html": "nunjucks"
+      },
+}
