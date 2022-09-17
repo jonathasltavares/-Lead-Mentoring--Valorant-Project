@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@700&display=swap');;
+body{
+    margin: 0px;
+    
+}
+* {
+    margin: 0px;
+    padding: 0;
+    
+} 
+.main{
+    background-color: #111B27;
+    width: 1186px;
+    height: 450px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 180px;
+}
+.noticias-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: white;
+    margin: 0px;
+    padding-left: 65px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    height: 450px;
+}
+.noticias-content{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    margin: 0px;
+    padding-top: 120px;
+}
+.chamada{
+    display: flex;
+    flex-direction: row;
+}
+.chamada-texto{
+    height: 13px;   
+}
+.conteudo-texto{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.texto-verde{
+    color:#02E63B;
+}
+.x-verde{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 30px;
+    font-size: 25px;
+    color: #02E63B;
+    line-height:10px;
+    margin-bottom:  10px;
+}
+.time-loud-image{
+    height: 280px;
+    margin:0px;
+    padding-top: 22px;
+    
+}
