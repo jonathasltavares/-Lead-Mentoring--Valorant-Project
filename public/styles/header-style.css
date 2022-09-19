@@ -47,6 +47,7 @@
 
 .cabecalho-menu-item{
     color: white;
+    cursor: pointer;
 }
 .cabecalho-perfil{
     display: flex;
