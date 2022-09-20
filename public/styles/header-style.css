@@ -66,6 +66,7 @@
     cursor: pointer;
     text-align: center;
 }
+
 .cabecalho-menu-item:after{
     content: '';
     position: absolute;
