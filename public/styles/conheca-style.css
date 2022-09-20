@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+h1{
+    width: auto;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 450%;
+    font-weight: bold;
+    line-height: 120%;
+    
+}
+p{
+    width: auto;
+    height: auto;
+    text-align: start;
+    font-size: 90%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap:5%;
+
+    font-family: 'Montserrat';
+    
+}
+.main{
+    background-image: url("/images/conheça-elementos.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    
+    background-color: #ECE8E1;
+    z-index: -1;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.chamada-musicvideo{
+    width: auto;
+    height: auto;
+    color: #FF4655;
+    text-align: start;
+    font-size: 50%;
+    font-weight: bold;
+
+    padding-right: 13%;
+    padding-top: 10%;
+}
+.musicvideo{
+    width: 70.5%;
+    height: 43%;
+    padding-top: 5%;
+    padding-left: 47%;
+}
+
+.jogueAgoraBttn{
+    width: 40%;
+    height: 6%;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4655;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 80%;
+    cursor:pointer;
+}
+.jogueAgoraBttn:hover{
+    background:#ff0015;
+}
+.left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18%;
+    width: 60%;
+    height: auto;
+    
+    padding-right: 15%;
+
+}
+.right-content{
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0%;
+}
