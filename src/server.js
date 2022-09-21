@@ -1,6 +1,9 @@
 const express = require("express")
 const server = express()
 
+//configurar pasta public
+server.use(express.static("public"))
+
 //utilizando template engine
 const nunjucks = require("nunjucks")
 nunjucks.configure("src/views", {
@@ -8,9 +11,6 @@ nunjucks.configure("src/views", {
     noCache: true
 })
 
-
-//configurar pasta public
-server.use(express.static("public"))
 //ligar o servidor
 server.listen(3000)
 
