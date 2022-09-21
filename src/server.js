@@ -12,7 +12,7 @@ nunjucks.configure("src/views", {
 })
 
 //ligar o servidor
-server.listen(3000)
+server.listen(process.env.PORT || 3000)
 
 //configurar caminhos da aplicação
 //pagina inicial
