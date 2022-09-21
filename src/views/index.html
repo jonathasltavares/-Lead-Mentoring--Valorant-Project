@@ -1,17 +1,17 @@
 {% extends "layout.html"%}
 {#HEADER#}
 {% block LMV02 %}
-
+    {%include "partials/header.html"%}
 {% endblock LMV02 %}
 
 {#CTA#}
 {% block LMV03 %}
-
+{% include "partials/home.html" %}
 {% endblock LMV03 %}
 
 {#NOTICIAS#}
 {% block LMV04 %}
-
+    {%include "partials/noticias.html"%}
 {% endblock LMV04 %}
 
 {#INFORMAÇÕES#}
@@ -36,8 +36,8 @@
 
 {#STYLES#}
 {% block styles %}
-
-
-
 <link rel="stylesheet" type="text/css" href="/styles/conheca-style.css"/>
+ <link rel="stylesheet" type="text/css" href="/styles/noticias-style.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/header-style.css"/> 
+<link rel="stylesheet" href="/styles/home_style.css">
 {% endblock styles %}
