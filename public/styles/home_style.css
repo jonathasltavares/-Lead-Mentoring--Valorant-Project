@@ -6,7 +6,7 @@
     
 }
 
-.main{
+.home-main{
     /* background */
 
     display: grid;
@@ -87,7 +87,7 @@
 
 }
 
-.background{
+.home-background{
     
     display: grid;
     width: 835px;

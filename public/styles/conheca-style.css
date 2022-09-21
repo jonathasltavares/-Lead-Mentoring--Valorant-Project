@@ -7,30 +7,14 @@
     height: 100%;
     text-decoration: none;
 }
-h1{
-    width: auto;
-    height: auto;
-    font-family: 'Oswald', sans-serif;
-    font-size: 450%;
-    font-weight: bold;
-    line-height: 120%;
-    
-}
-p{
-    width: auto;
-    height: auto;
-    text-align: start;
-    font-size: 90%;
-}
-section{
+.conheca-section{
     display: flex;
     flex-direction: column;
     gap:5%;
-
     font-family: 'Montserrat';
     
 }
-.main{
+.conheca-main{
     background-image: url("/images/conheça-elementos.png");
     background-size: 90%;
     background-repeat: no-repeat;
@@ -44,7 +28,7 @@ section{
 
 }
 
-.chamada-musicvideo{
+.conheca-chamada-musicvideo{
     width: auto;
     height: auto;
     color: #FF4655;
@@ -55,14 +39,14 @@ section{
     padding-right: 13%;
     padding-top: 10%;
 }
-.musicvideo{
+.conheca-musicvideo{
     width: 70.5%;
     height: 43%;
     padding-top: 5%;
     padding-left: 47%;
 }
 
-.jogueAgoraBttn{
+.conheca-jogueAgoraBttn{
     width: 40%;
     height: 6%;
     text-align: center;
@@ -76,10 +60,10 @@ section{
     font-size: 80%;
     cursor:pointer;
 }
-.jogueAgoraBttn:hover{
+.conheca-jogueAgoraBttn:hover{
     background:#ff0015;
 }
-.left-content{
+#conheca-left-content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,10 +74,24 @@ section{
     padding-right: 15%;
 
 }
-.right-content{
+#conheca-right-content{
     width: 40%;
     height: auto;
     justify-content: center;
     align-items: flex-start;
     padding-top: 0%;
+}
+.conheca-texto{
+    width: auto;
+    height: auto;
+    text-align: start;
+    font-size: 90%;
+}
+.conheca-titulo{
+    width: auto;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 450%;
+    font-weight: bold;
+    line-height: 120%;
 }
