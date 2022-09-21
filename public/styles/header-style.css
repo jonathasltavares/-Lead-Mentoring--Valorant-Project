@@ -9,7 +9,7 @@
     height: 100%;
 }
 
-.cabecalho{
+.header-cabecalho{
     position: fixed;
     top:0;
     left: 0;
@@ -26,8 +26,9 @@
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
+    z-index: 10;
 }
-.cabecalho-left-content{
+.header-cabecalho-left-content{
     width: 20%;
     display: flex;
     flex-direction: row;
@@ -36,22 +37,22 @@
     padding-left: 1%;
 
 }
-.cabecalho-logo-riot{
+.header-cabecalho-logo-riot{
     height: 20px;
     width: 60px;
 }
-.cabecalho-linha-vertical{
+.header-cabecalho-linha-vertical{
     height: 20px;
     width: 1%;
     border-left: 1px solid #ffffff;
     padding-right: 2%;
     
 }
-.cabecalho-logo-valorant{
+.header-cabecalho-logo-valorant{
     height: 20px;
     width: 25px;
 }
-.cabecalho-menu{
+.header-cabecalho-menu{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -59,7 +60,7 @@
     width: 40%;
 }
 
-.cabecalho-menu-item{
+.header-cabecalho-menu-item{
     display: inline-block;
     position:relative;
     color: white;
@@ -67,7 +68,7 @@
     text-align: center;
 }
 
-.cabecalho-menu-item:after{
+.header-cabecalho-menu-item:after{
     content: '';
     position: absolute;
     width: 100%;
@@ -80,11 +81,11 @@
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-.cabecalho-menu-item:hover:after {
+.header-cabecalho-menu-item:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-.cabecalho-perfil{
+.header-cabecalho-perfil{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -94,13 +95,13 @@
     font-size: 10px;
     width: 20%;
 }
-.cabecalho-perfil-item{
+.header-cabecalho-perfil-item{
     color: white;
     cursor: pointer;
     width: auto;
     align-self: center;
 }
-.cabecalho-perfil-imagem{
+.header-cabecalho-perfil-imagem{
     border-radius: 50%;
     height: 30px;
     width: auto;
