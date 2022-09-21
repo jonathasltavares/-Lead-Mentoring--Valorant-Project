@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    width:100%;
+    height:100%;
+}
+
+.agente-main{
+    /* background */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background: #FF4655;
+
+}
+
+
+.agente{
+    display: flex;
+    background-image: url("/images/img-elementos-agentes.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.agente-paragrafo{
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.agente-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    
+}
+
+.agente-titulo-image{
+
+    width: 80%;
+    height: 80px;  
+    display: grid;
+    margin-top: 9%;
+    
+}    
+
+
+.agente-subtitulo{
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    font-family: 'Montserrat';
+    font-weight: 1000;
+    display: grid;
+    margin-left: 19%;
+    /* margin-top: 10%; */
+    color: #ECE8E1;
+
+}
+
+
+.agente-texto{
+        width: auto;
+        height: auto;
+        font-size: 20px;
+        font-family: 'Montserrat';
+        font-weight: 1000;
+        display: grid;
+        margin-left: 19%;
+        margin-top: 5%;
+        color: #ECE8E1;
+}
+    
+.agente-botao{
+    /* Button */
+
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 45%;
+    height: 10%;
+    font-size: 80%;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #141723;
+    background: #ECE8E1;    
+    margin-left: 19%;
+    margin-top: 5%;
+    cursor: pointer;
+
+}
+
+.agente-botao:hover { 
+    background: #141723;
+    color: white;
+}
+
+.agente-right-images{
+    display: flex;
+    width: 65%;
+    margin-right: 15%;
+}
+
+.agente-background{
+    
+    width: 250%;
+    height: 110%;
+    overflow: hidden;
+}
