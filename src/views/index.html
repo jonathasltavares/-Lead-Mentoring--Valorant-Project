@@ -21,7 +21,7 @@
 
 {#AGENTES#}
 {% block LMV06 %}
-    {%include "partials/agentes.html"%}}
+    {%include "partials/agentes.html"%}
 {% endblock LMV06 %}
 
 {#FOOTER#}
@@ -31,7 +31,7 @@
 
 {#SCRIPTS#}
 {% block scripts %}
-
+{%include "partials/footer.html"%}
 {% endblock scripts %}
 
 {#STYLES#}
@@ -42,5 +42,5 @@
 <link rel="stylesheet" type="text/css" href="/styles/home_style.css"/>
 <link rel="stylesheet" type="text/css" href="/styles/agente_style.css"/>
 <link rel="stylesheet" type="text/css" href="/styles/cssglobal.css"/>
-
+<link rel="stylesheet" type="text/css" href="/styles/footer-style.css"/>
 {% endblock styles %}
