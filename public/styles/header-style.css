@@ -106,3 +106,11 @@
     height: 30px;
     width: auto;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: 3em;
+}
