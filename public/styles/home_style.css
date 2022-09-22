@@ -77,6 +77,12 @@
     text-decoration: none;
 }
 
+.home-botao:hover{
+    background:#fb4040f3;
+    color: white;
+    text-decoration: none;
+}
+
 .home-right-images{
     display: flex;
     width: 65%;
