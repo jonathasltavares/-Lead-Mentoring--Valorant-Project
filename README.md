@@ -2,7 +2,7 @@
 
 
 ## [LEAD MENTORING] - Valorant Project
-Esse projeto foi proposto pelo Christian Castro, mentor do programada Lead Mentoring, o qual estou participando, da Dell Lead, e tem como objetivo a criação de uma landing page baseada no jogo Valorant da Riot Games.
+Esse projeto foi proposto pelo Christian Castro, mentor do programa Lead Mentoring, o qual estou participando, da Dell Lead, e tem como objetivo a criação de uma landing page baseada no jogo Valorant da Riot Games.
 
 
 ## Tecnologias 
