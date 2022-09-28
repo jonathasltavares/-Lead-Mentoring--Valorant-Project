@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie uma conta</title>
+    <link rel="stylesheet" type="text/css" href="/styles/cadastro-style.css"/>
+</head>
+<body>
+    <div class="cadastro-main">
+        <div class="cadastro-left-content">
+            <h1 class="cadastro-h1"><strong>CRIAR UMA<br>CONTA</strong></h1>
+        </div>
+
+        <section class="cadastro-right-content">
+            <img class="cadastro-valorantImg" src="\images\home-valorant.svg">
+            <div class="cadastro-div-form">
+                <p class="cadastro-right-content-paragrafo">Falta pouco!<br>só precisamos de algumas informações antes</p>
+                <form action="">
+                    <label class="cadastro-label" for="email">E-MAIL</label>
+                    <input class="cadastro-input" type="email" name="email" id="cadastro-email">
+                    <label class="cadastro-label" for="senha">SENHA</label>
+                    <input class="cadastro-input" type="password" name="senha" id="cadastro-senha">
+                    <label class="cadastro-label" for="confirmarsenha">CONFIRMAR SENHA</label>
+                    <input class="cadastro-input" type="password" name="confirsenha" id="cadastro-confirmar-senha">
+                    <span id="cadastro-confirmar-senha"></span>
+                    <button class="cadastro-button">Enviar</button>
+                </form>
+                <a class="cadastro-ancora-login"href="">Já possui conta?</a>
+            </div>
+        </section>
+    </div>
+    
+    <script src="/scripts/cadastro.js"></script>
+</body>
+</html>

@@ -17,6 +17,6 @@ server.listen(process.env.PORT || 3000)
 //configurar caminhos da aplicação
 //pagina inicial
 server.get("/", (req, res) => {
-    return res.render("index.html")
+    return res.render("cadastro.html")
 })
 

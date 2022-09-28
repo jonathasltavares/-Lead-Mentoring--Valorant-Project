@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.cadastro-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 115%;
+    background-image: url("/images/cadastro-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cadastro-left-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    padding-left: 10%;
+}
+.cadastro-h1{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    color: white;
+    font-size: 300%;
+    width: auto;
+    height: auto;
+    padding-bottom: 15%;
+    padding-left: 8%;
+}
+.cadastro-right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 27%;
+    height: 80%;
+    gap: 5%;
+    padding-left: 7%;
+}
+.cadastro-right-content-paragrafo{
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: 700;
+    font-size: 130%;
+    height: auto;
+}
+.cadastro-div-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10%;
+    background-color: white;
+    width: 79.5%;
+    height: 100%;
+    padding: 9%;
+}
+.cadastro-valorantImg{
+    height: auto;
+    width: 100%;
+}
+.cadastro-form{
+    display: flex;
+    flex-direction: column;
+    gap:3%;
+    width: 100%;
+    height: 150%;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: black;
+    font-size: 50%;
+}
+.cadastro-input{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: black;
+    font-size: 100%;  
+
+    border-radius: 3%;
+    border-color: #BDBDBD;
+    width: 100%;
+    height: 15%;
+}
+.cadastro-ancora-login{
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    color: black;
+    font-size: 70%;
+}
+.cadastro-button{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4655;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 150%;
+    cursor: pointer;
+    border: none;
+    margin-top: 5%;
+
+}
+.cadastro-button:hover{
+    background:#ff0015;
+}
+span#cadastro-confirmar-senha{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #C72C2C;
+    font-size: 80%;
+    width: 100%;
+    height: 5%;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #CCCCCC;
+}
+
+body::-webkit-scrollbar-track {
+    background: #CCCCCC;
+}
+body::-webkit-scrollbar-track-piece {
+    background: #CCCCCC;
+}
+body::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-corner {
+    background: #FF0000;
+    border-radius: 5px;
+}
+.cadastro-label{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: black;
+    font-size: 50%;
+    width: auto;
+    height: auto;
+}
