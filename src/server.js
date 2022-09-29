@@ -20,3 +20,12 @@ server.get("/", (req, res) => {
     return res.render("cadastro.html")
 })
 
+server.get("/cadastro", (req, res) => {
+    return res.render("cadastro.html")
+})
+server.get("/login", (req, res) => {
+    return res.render("login.html")
+})
+server.get("/index", (req, res) => {
+    return res.render("index.html")
+})

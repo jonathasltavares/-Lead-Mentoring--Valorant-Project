@@ -1,15 +1,12 @@
 
-const botao = document.querySelector(".cadastro-button")
-botao.addEventListener("click", cadastrar)
-
 let users = [
     {
         "email": "teste@teste.com",
         "senha": "1234",
     },
 ]
-sessionStorage.setItem('users', JSON.stringify(users))
 function cadastrar() {
+    sessionStorage.setItem('users', JSON.stringify(users))
     event.preventDefault()
     let url = "/cadastrar"
     var valueEmail = document.querySelector("#cadastro-email").value
@@ -23,6 +20,7 @@ function cadastrar() {
         document.querySelector("#cadastro-confirmar-senha").style.borderColor = "#C72C2C"
         document.querySelector("span#cadastro-confirmar-senha").innerHTML = "As senhas informadas não coincidem"
     }
+    
     else{
         document.querySelector("#cadastro-confirmar-senha").style.borderColor = "#BDBDBD"
         document.querySelector("span#cadastro-confirmar-senha").innerHTML = ""
@@ -39,7 +37,7 @@ function cadastrar() {
             document.querySelector("#cadastro-email").value = ''
             document.querySelector("#cadastro-senha").value =''
             document.querySelector("#cadastro-confirmar-senha").value =''
-        
+        window.location.href = '/index'
     }
 
 }
