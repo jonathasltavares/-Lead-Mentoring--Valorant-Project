@@ -9,8 +9,9 @@
 </head>
 <body>
     <div class="cadastro-main">
+        <<img class="cadastro-valorant-logo" src="/images/cadastro-valorant-logo.svg" alt="">
         <div class="cadastro-left-content">
-            <h1 class="cadastro-h1"><strong>CRIAR UMA<br>CONTA</strong></h1>
+            <h1 class="cadastro-h1"><strong>CRIAR UMA<br>CONTA</strong></h1> 
         </div>
 
         <section class="cadastro-right-content">
@@ -18,11 +19,11 @@
             <div class="cadastro-div-form">
                 <p class="cadastro-right-content-paragrafo">Falta pouco!<br>só precisamos de algumas informações antes</p>
                 <form action="">
-                    <label class="cadastro-label" for="email">E-MAIL</label>
+                    <label class="cadastro-label" for="email" required>E-MAIL</label>
                     <input class="cadastro-input" type="email" name="email" id="cadastro-email">
-                    <label class="cadastro-label" for="senha">SENHA</label>
+                    <label class="cadastro-label" for="senha" required>SENHA</label>
                     <input class="cadastro-input" type="password" name="senha" id="cadastro-senha">
-                    <label class="cadastro-label" for="confirmarsenha">CONFIRMAR SENHA</label>
+                    <label class="cadastro-label" for="confirmarsenha" required>CONFIRMAR SENHA</label>
                     <input class="cadastro-input" type="password" name="confirsenha" id="cadastro-confirmar-senha">
                     <span id="cadastro-confirmar-senha"></span>
                     <button class="cadastro-button">Enviar</button>

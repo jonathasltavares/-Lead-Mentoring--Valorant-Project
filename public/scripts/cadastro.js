@@ -2,7 +2,13 @@
 const botao = document.querySelector(".cadastro-button")
 botao.addEventListener("click", cadastrar)
 
-
+let users = [
+    {
+        "email": "teste@teste.com",
+        "senha": "1234",
+    },
+]
+sessionStorage.setItem('users', JSON.stringify(users))
 function cadastrar() {
     event.preventDefault()
     let url = "/cadastrar"
@@ -10,6 +16,7 @@ function cadastrar() {
     var valueSenha = document.querySelector("#cadastro-senha").value
     var valueConfirSenha = document.querySelector("#cadastro-confirmar-senha").value
 
+    
 
     console.log(valueEmail, valueSenha, valueConfirSenha)
     if(valueSenha!=valueConfirSenha){
@@ -19,23 +26,19 @@ function cadastrar() {
     else{
         document.querySelector("#cadastro-confirmar-senha").style.borderColor = "#BDBDBD"
         document.querySelector("span#cadastro-confirmar-senha").innerHTML = ""
-
-        const users = [
-            {
-                "email": "teste@teste.com",
-                "senha": "1234",
-            },
-        ]
-        function setUser(vEmail, vSenha){
+        
             let user ={
-                "email": vEmail,
-                "senha": vSenha
+                "email": valueEmail,
+                "senha": valueSenha
             }
+
             users.push(user)
             
             console.log(users)
-        }
-        setUser(valueEmail, valueSenha)
+            sessionStorage.setItem('users', JSON.stringify(users))
+            document.querySelector("#cadastro-email").value = ''
+            document.querySelector("#cadastro-senha").value =''
+            document.querySelector("#cadastro-confirmar-senha").value =''
         
     }
 

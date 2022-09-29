@@ -82,11 +82,12 @@
     font-weight: 400;
     color: black;
     font-size: 100%;  
-
+    border:solid;
     border-radius: 3%;
     border-color: #BDBDBD;
-    width: 100%;
+    width: 88%;
     height: 15%;
+    padding-inline: 5%;
 }
 .cadastro-ancora-login{
     width: auto;
@@ -154,4 +155,11 @@ body::-webkit-scrollbar-corner {
     font-size: 50%;
     width: auto;
     height: auto;
+}
+.cadastro-valorant-logo{
+    width: 4%;
+    height: auto;
+    padding-top: 46%;
+    padding-right: 8%;
+
 }
