@@ -4,6 +4,10 @@ let users = [
         "email": "teste@teste.com",
         "senha": "1234",
     },
+    {
+        "email": "lala@teste.com",
+        "senha": "1234",
+    },
 ]
 function cadastrar() {
     sessionStorage.setItem('users', JSON.stringify(users))
@@ -13,9 +17,6 @@ function cadastrar() {
     var valueSenha = document.querySelector("#cadastro-senha").value
     var valueConfirSenha = document.querySelector("#cadastro-confirmar-senha").value
 
-    
-
-    console.log(valueEmail, valueSenha, valueConfirSenha)
     if(valueSenha!=valueConfirSenha){
         document.querySelector("#cadastro-confirmar-senha").style.borderColor = "#C72C2C"
         document.querySelector("span#cadastro-confirmar-senha").innerHTML = "As senhas informadas não coincidem"
@@ -31,13 +32,14 @@ function cadastrar() {
             }
 
             users.push(user)
-            
-            console.log(users)
+
             sessionStorage.setItem('users', JSON.stringify(users))
             document.querySelector("#cadastro-email").value = ''
             document.querySelector("#cadastro-senha").value =''
             document.querySelector("#cadastro-confirmar-senha").value =''
-        window.location.href = '/index'
+            window.location.href = '/index'
     }
-
+}
+function possuiConta(){
+    window.location.href = '/login'
 }

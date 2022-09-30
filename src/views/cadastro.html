@@ -18,7 +18,7 @@
             <img class="cadastro-valorantImg" src="\images\home-valorant.svg">
             <div class="cadastro-div-form">
                 <p class="cadastro-right-content-paragrafo">Falta pouco!<br>só precisamos de algumas informações antes</p>
-                <form onsubmit="cadastrar()">
+                <form class="cadastro-form" onsubmit="cadastrar()">
                     <label class="cadastro-label" for="email">E-MAIL</label>
                     <input class="cadastro-input" type="email" name="email" id="cadastro-email" required/>
                     <label class="cadastro-label" for="senha">SENHA</label>
@@ -28,7 +28,7 @@
                     <span id="cadastro-confirmar-senha"></span>
                     <button type="submit" class="cadastro-button">Enviar</button>
                 </form>
-                <a class="cadastro-ancora-login"href="">Já possui conta?</a>
+                <a class="cadastro-ancora-login" onclick="possuiConta()">Já possui conta?</a>
             </div>
         </section>
     </div>
