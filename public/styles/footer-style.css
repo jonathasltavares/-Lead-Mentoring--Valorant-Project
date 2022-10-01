@@ -1,0 +1,38 @@
+footer{
+    background: #111111;
+    width: 100%;
+    height: 40%;
+}
+.footer-main{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    gap: 5%;
+
+}
+.footer-logoriot{
+    margin-top: 5%;
+    width: 4%;
+    height: 10%;
+}
+.footer-redes{
+    display: flex;
+    flex-direction: row;
+    width: 17%;
+    height: 10%;
+}
+
+.footer-copyright{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 80%;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #888888;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+} 
+
+.noticias-main{
+    background-image: url("/images/noticias-Elementos img.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #111B27;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+
+    display: flex;
+    flex-direction: row;
+}
+.noticias-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: white;
+    margin: 0px;
+    padding-top: 6%;
+    width: 100%;
+    height: 50%;
+}
+.noticias-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    width: 30%;
+}
+.noticias-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 92%;
+    height: 50%;
+    margin: 0px;
+}
+.noticias-chamada{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.noticias-chamada-texto{
+    height: 30%;
+    width: 60%;
+    z-index: 3;
+    padding-top: 18%;
+}
+.noticias-conteudo-texto{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 100%;
+    color: white;
+    width: 90%;
+    height: 40%;
+    text-align: start;
+    z-index: 3;
+    padding-top: 2%;
+}
+.noticias-texto-verde{
+    color:#02E63B;
+}
+.noticias-x-verde{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 30px;
+    font-size: 25px;
+    color: #02E63B;
+    line-height:10px;
+    margin-bottom:  10px;
+}
+.noticias-time-loud-image{
+    height: 100%;
+    margin:0px;
+    z-index: 8;
+    padding-top: 10%;
+}
+
+.noticias-right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+    overflow: hidden;
+    z-index: 9;
+    
+}
+
+.noticias-noise-lineup{
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 60%;
+    color: white;
+    text-align: start;
+    padding-top: 45%;
+}
+.noticias-followthenoise{
+    height: auto;
+}
+.noticias-lineup{
+    height: auto;
+}
+span{
+    color: #02E63B;
+}

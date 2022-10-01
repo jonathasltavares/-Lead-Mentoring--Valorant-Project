@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100%; 
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #CCCCCC;
+}
+
+body::-webkit-scrollbar-track {
+    background: #CCCCCC;
+}
+body::-webkit-scrollbar-track-piece {
+    background: #CCCCCC;
+}
+body::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-corner {
+    background: #FF0000;
+    border-radius: 5px;
+}

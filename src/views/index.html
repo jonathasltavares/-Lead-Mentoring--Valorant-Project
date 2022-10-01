@@ -1,27 +1,27 @@
 {% extends "layout.html"%}
 {#HEADER#}
 {% block LMV02 %}
-
+    {%include "partials/header.html"%}
 {% endblock LMV02 %}
 
 {#CTA#}
 {% block LMV03 %}
-
+    {% include "partials/home.html" %}
 {% endblock LMV03 %}
 
 {#NOTICIAS#}
 {% block LMV04 %}
-
+    {%include "partials/noticias.html"%}
 {% endblock LMV04 %}
 
 {#INFORMAÇÕES#}
 {% block LMV05 %}
-
+    {%include "partials/conheca.html"%}
 {% endblock LMV05 %}
 
 {#AGENTES#}
 {% block LMV06 %}
-
+    {%include "partials/agentes.html"%}
 {% endblock LMV06 %}
 
 {#FOOTER#}
@@ -31,10 +31,16 @@
 
 {#SCRIPTS#}
 {% block scripts %}
-
+{%include "partials/footer.html"%}
 {% endblock scripts %}
 
 {#STYLES#}
 {% block styles %}
-
+<link rel="stylesheet" type="text/css" href="/styles/conheca-style.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/noticias-style.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/header-style.css"/> 
+<link rel="stylesheet" type="text/css" href="/styles/home_style.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/agente_style.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/cssglobal.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/footer-style.css"/>
 {% endblock styles %}
