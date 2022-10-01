@@ -19,7 +19,7 @@ function logar(){
             }else{
                 //achou o email mas a senha não corresponde ao email encontrado = senha incorreta]
                 //esse codigo ta informando que usuario ou senha ta errado
-                document.querySelector("confirmar-usuario-senha-login").innerHTML = "Email e/ou Senha inválido(s)"
+                document.querySelector("#confirmar-usuario-senha-login").innerHTML = "Email e/ou Senha inválido(s)"
             }
         }   
     }
