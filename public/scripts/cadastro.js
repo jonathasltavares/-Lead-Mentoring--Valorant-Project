@@ -37,7 +37,7 @@ function cadastrar() {
             document.querySelector("#cadastro-email").value = ''
             document.querySelector("#cadastro-senha").value =''
             document.querySelector("#cadastro-confirmar-senha").value =''
-            window.location.href = '/index'
+            //window.location.href = '/login'
     }
 }
 function possuiConta(){

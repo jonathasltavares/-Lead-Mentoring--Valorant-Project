@@ -111,22 +111,6 @@
     width: 20%;
     cursor: pointer;
 }
-.header-cabecalho-right-logout:after{
-    content: '';
-    position: absolute;
-    width: 5%;
-    transform: scaleX(0);
-    height: 3px;
-    bottom: 30%;
-    left: 93%;
-    background-color: #FF4655;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-.header-cabecalho-right-logout:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
 .header-cabecalho-right-acessibilidadeBar{
     display: flex;
     flex-direction: row;
