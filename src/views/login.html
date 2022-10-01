@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="\styles\login_style.css">
+</head>
+<body>
+    <div class="login-main">
+        <div class="login-left-content">
+            <h1 class="login-texto"><strong>A CRIATIVIDADE<br>É SUA MELHOR<br>ARMA.</strong></h1>
+        </div>
+
+        <section class="login-right-content">
+            <img class="login-valorant-img" src="\images\login-valorant.svg">
+            <div class="login-box">
+                <p class="login-right-content-mensagem">Bem-vindo de volta!</p>
+                <form class="login-forms" onsubmit="logar()">
+                    <label class="login-label" for="e-mail">E-MAIL</label>
+                    <input class="login-input" type="e-mail" name="usuario" id="login-email" placeholder="@gmail.com" required/><br>
+                    <label class="login-label" for="password">SENHA</label>
+                    <input class="login-input" type="password" name="senha" id="login-senha" required/><br>
+                    <span id="confirmar-usuario-senha-login"></span>
+                    <button class="login-button" type="submit">Entrar</button>
+                </form>
+                <a class="login-ancora-cadastro" href="cadastro">Criar conta</a>
+            </div>
+        </section>
+        </div>
+
+    <script src="\scripts\login.js"></script>
+</body>
+</html>
