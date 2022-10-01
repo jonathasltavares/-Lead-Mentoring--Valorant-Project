@@ -3,8 +3,8 @@
 *{
     margin: 0;
     padding: 0;
-    width: 1495px;
-    height: 754px;
+    width: 100%;
+    height: 100%;
     text-decoration: none;
 }
 
@@ -14,10 +14,10 @@
     flex-direction: row;
     justify-content: flex-start;        
     align-items: center;
-    width: 1495px;
-    height: 754px;
+    width: 100%;
+    height: 115%;
     background-image: url("/images/login-background.png");
-    background-size: 1495px;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -28,8 +28,8 @@
     justify-content: flex-start;
     align-items: center;
     width: 540px;
-    padding-left: 320px;
-    padding-right: 96px;	
+    padding-left: 290px;
+    padding-right: 34px;
 }
 
 .login-texto{
@@ -43,7 +43,7 @@
 }
 
 .login-right-content{
-    display: flex;
+display: flex;
     flex-direction: column;
     justify-content: center;
     width: 366px;
@@ -52,22 +52,19 @@
     max-height: 600px;
     min-width: 366px;
     min-height: 600px;
-    gap: 50px;
-    
+    gap: 30px;
 }
 
 
 
 .login-right-content-mensagem{
     font-family: 'Montserrat';
-    padding-left: 40px;
     text-align: center;
     color: black;
     font-weight: 700;
     font-size: 20px;
-    height: 80px;
-    width: 260px;
-    
+    height: 50px;
+    width: 304px;
 }
 
 .login-box{
@@ -75,37 +72,35 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
+    max-width: 366px;
+    max-height: 330px;
+    width: 304px;
+    height: 304px;
     max-width: 340px;
     max-height: 330px;
-    width: 340px;
-    height: 330px;
-    max-width: 340px;
-    max-height: 330px;
-    padding: 32px;
-    
-
+    padding-top: 25px;
+    padding-right: 32px;
+    padding-bottom: 25px;
+    padding-left: 32px;
 }
 
 .login-valorant-img{
-    height: 60px;
-    width: 390px;
-
+    height: 53px;
+    width: 366px;
 }
 
 .login-forms{
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 600px;
+    height: 240px;
     max-width: 300px;
     max-height: 600px;
-    min-width: 300px;
-    max-width: 600px;
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 12px;
-
+    font-size: 10px;
 }
+
 
 .login-input{
     font-family: 'Montserrat';
@@ -114,14 +109,15 @@
     font-size: 14px;
     border: 1.9px solid #BDBDBD;
     box-shadow: #333333;
-    width: 296px;
-    height: 45px;
-    padding-left: 10px;
-    padding-inline: 18px;
     border-radius: 2px;
-    border-color: #BDBDBD;
-    margin-bottom: 4px;
-
+    max-width: 366px;
+    max-height: 330px;
+    width: 300px;
+    height: 42px;
+    max-width: 340px;
+    max-height: 330px;
+    padding-left: 2px;
+    outline: none;
 }
 
 .login-label{
@@ -135,20 +131,19 @@
 }
 
 .login-button{
-    width: 338px;
-    height: 48px;
-    background-color: #FF4655;
+    width: 300px;
+    height: 42px;
+    text-align: center;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4655;
     font-family: 'Montserrat';
     font-weight: 550;
     font-size: 12px;
-    border: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
-    margin-top: 5px;
+    border: none;
 }
 
 .login-button:hover{
@@ -156,16 +151,15 @@
 }
 
 .login-ancora-cadastro{
-    width: 346px;
-    height: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
     font-family: 'Montserrat';
     font-weight: bolder;
     color: black;
-    font-size: 12px;
+    font-size: 70%;
     cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-
 }
 
 
