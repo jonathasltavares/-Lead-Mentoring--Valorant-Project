@@ -1,18 +1,9 @@
-
-let users = [
-    {
-        "email": "teste@teste.com",
-        "senha": "1234",
-    },
-    {
-        "email": "lala@teste.com",
-        "senha": "1234",
-    },
-]
+//pegando o sessionStorage
+let usersString = sessionStorage.getItem('users');
+// transformar em array de objeto novamente
+let users = JSON.parse(usersString);
 function cadastrar() {
-    sessionStorage.setItem('users', JSON.stringify(users))
     event.preventDefault()
-    let url = "/cadastrar"
     var valueEmail = document.querySelector("#cadastro-email").value
     var valueSenha = document.querySelector("#cadastro-senha").value
     var valueConfirSenha = document.querySelector("#cadastro-confirmar-senha").value
