@@ -1,7 +1,13 @@
+let users = [{
+    "email": "teste@teste.com",
+    "senha": "123"
+}]
+sessionStorage.setItem('users', JSON.stringify(users))
 //pegando o sessionStorage
 let usersString = sessionStorage.getItem('users');
 // transformar em array de objeto novamente
-let usersArray = JSON.parse(usersString);
+
+usersArray = JSON.parse(usersString);
 
 
 function logar(){
