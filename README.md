@@ -44,8 +44,8 @@ Tecnologias usadas nesse projeto:
 
 
 ## Links
-  - Repository: github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project  
-  - Deploy: valorantprojectleadmentoring.herokuapp.com
+  - Repository: https://github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project  
+  - Deploy: https://valorantprojectleadmentoring.herokuapp.com
 
 ## Authors
 
