@@ -45,12 +45,12 @@ Tecnologias usadas nesse projeto:
 
 ## Links
 
-  <a href="github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project">Repository</a><br>
+  <a href="https://github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project">Repository</a><br>
   <a href="https://valorantprojectleadmentoring.herokuapp.com">Deploy</a>
   
 
 ## Authors
 
-  <a href="github.com/jonathasltavares">Jonathas Luan</a>  
-  <a href="github.com/IsabeleOliveira">Isabele Oliveira</a>  
-  <a href="github.com/CCastro01">Christian Castro</a>  
+  <a href="https://github.com/jonathasltavares">Jonathas Luan</a>  
+  <a href="https://github.com/IsabeleOliveira">Isabele Oliveira</a>  
+  <a href="https://github.com/CCastro01">Christian Castro</a>  
