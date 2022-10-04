@@ -15,32 +15,42 @@ Tecnologias usadas nesse projeto:
 
 ## Páginas  
 
-### 1 - Home
+### 1 - Cadastro
+
+![Homepage image](public/README/cadastro.png)
+
+### 2 - Login
+
+![Homepage image](public/README/login.png)
+
+### 3 - Home
 
 ![Homepage image](public/README/home.png)
 
 
-### 2 - Notícias
+### 4 - Notícias
 
 ![Login](public/README/noticias.png)
 
 
-### 3 - Agentes
+### 5 - Agentes
 
 ![Sign up](public/README/agentes.png)
 
 
-### 4 - Sobre o jogo
+### 6 - Sobre o jogo
 
 ![Dashboard](public/README/sobre.png)
 
 
 ## Links
-  - Repository: https://github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project  
-  - Deploy: https://valorantprojectleadmentoring.herokuapp.com
+
+  <a href="https://github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project">Repository</a><br>
+  <a href="https://valorantprojectleadmentoring.herokuapp.com">Deploy</a>
+  
 
 ## Authors
 
-  <a href="github.com/jonathasltavares">Jonathas Luan</a>  
+  <a href="https://github.com/jonathasltavares">Jonathas Luan</a>  
   <a href="https://github.com/IsabeleOliveira">Isabele Oliveira</a>  
   <a href="https://github.com/CCastro01">Christian Castro</a>  
