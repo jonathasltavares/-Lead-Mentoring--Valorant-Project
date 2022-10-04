@@ -12,6 +12,7 @@ Tecnologias usadas nesse projeto:
 * HTML5
 * CSS3
 * NunJucks
+* JavaScript 
 
 ## Páginas  
 
