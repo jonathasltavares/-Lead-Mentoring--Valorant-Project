@@ -30,7 +30,7 @@
     height: auto;
     color: #FF4655;
     text-align: start;
-    font-size: 0.9rem;
+    font-size: 0.5rem;
     font-weight: bold;
 
     padding-right: 27.5%;
@@ -44,8 +44,8 @@
 }
 
 .conheca-jogueAgoraBttn{
-    width: 17.875rem;
-    height: 4.188rem;
+    width: 12.875rem;
+    height: 2.188rem;
     text-align: center;
     color: white;
     display: flex;
@@ -54,9 +54,9 @@
     background-color: #FF4655;
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.7rem;
     cursor: pointer;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
 }
 .conheca-jogueAgoraBttn:hover{
     background:#ff0015;
@@ -74,15 +74,15 @@
     height: auto;
     justify-content: center;
     align-items: flex-start;
-    gap: 3%;
+    gap: 6%;
 }
 
 .conheca-texto{
     color: #666666;
-    width: 24.5rem;
-    height: 18.188rem;
+    width: auto;
+    height: auto;
     text-align: start;
-    font-size: 1.090rem;
+    font-size: 0.8rem;
 }
 .conheca-texto-desafie{
     width: 400px;
@@ -96,7 +96,7 @@
     width: auto;
     height: auto;
     font-family: 'Oswald', sans-serif;
-    font-size: 5.625rem;
+    font-size: 4rem;
     font-weight: bold;
     line-height: 120%;
 }
