@@ -11,22 +11,18 @@
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat';
-    font-size: 90%;
-    
 }
 .conheca-main{
-    background-image: url("/images/conheça-elementos.png");
+    background-image: url(/images/conheça-elementos.png);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center bottom;
-    
     background-color: #ECE8E1;
     z-index: -1;
-    padding-top: 5%;
+    padding-top: 2%;
     display: flex;
     flex-direction: row;
     width: auto;
-
 }
 
 .conheca-chamada-musicvideo{
@@ -34,7 +30,7 @@
     height: auto;
     color: #FF4655;
     text-align: start;
-    font-size: 50%;
+    font-size: 0.9rem;
     font-weight: bold;
 
     padding-right: 27.5%;
@@ -48,8 +44,8 @@
 }
 
 .conheca-jogueAgoraBttn{
-    width: 37%;
-    height: 270%;
+    width: 17.875rem;
+    height: 4.188rem;
     text-align: center;
     color: white;
     display: flex;
@@ -58,7 +54,7 @@
     background-color: #FF4655;
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 80%;
+    font-size: 1rem;
     cursor: pointer;
     margin-bottom: 15%;
 }
@@ -78,29 +74,29 @@
     height: auto;
     justify-content: center;
     align-items: flex-start;
-    gap: 6%;
+    gap: 3%;
 }
 
 .conheca-texto{
     color: #666666;
-    width: auto;
-    height: 90%;
+    width: 24.5rem;
+    height: 18.188rem;
     text-align: start;
-    font-size: 90%;
+    font-size: 1.090rem;
 }
 .conheca-texto-desafie{
+    width: 400px;
+    height: 10px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
-    font-size: 90%;
-    line-height: 10%;
-    
+    font-size: 0.938rem
 }
 .conheca-titulo{
     width: auto;
     height: auto;
     font-family: 'Oswald', sans-serif;
-    font-size: 450%;
+    font-size: 5.625rem;
     font-weight: bold;
     line-height: 120%;
 }

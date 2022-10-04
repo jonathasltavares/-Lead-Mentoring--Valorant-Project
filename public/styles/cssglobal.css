@@ -33,3 +33,6 @@ body::-webkit-scrollbar-corner {
     background: #FF0000;
     border-radius: 5px;
 }
+html{
+    font-size: 16px;
+}

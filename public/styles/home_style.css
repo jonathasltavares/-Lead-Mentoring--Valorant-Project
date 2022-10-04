@@ -33,14 +33,14 @@
     justify-content: center;
     align-items: flex-start;
     width: 50%;
-    
+    gap: 7px;  
 }
 
 .home-texto{
     /* Um jogo de tiro tático 5x5 com personagens originais */
     width: auto;
     height: auto;
-    font-size: 12px;
+    font-size: 0.90rem;
     font-family: 'Montserrat';
     font-weight: 900;
     display: grid;
@@ -70,7 +70,7 @@
     background: #FF4655;
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 80%;
+    font-size: 1rem;
     margin-left: 35%;
     cursor:pointer;
     
