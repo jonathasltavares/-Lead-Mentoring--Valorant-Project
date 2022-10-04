@@ -46,7 +46,7 @@ Tecnologias usadas nesse projeto:
 ## Links
 
   <a href="github.com/jonathasltavares/-Lead-Mentoring--Valorant-Project">Repository</a><br>
-  <a href="valorantprojectleadmentoring.herokuapp.com">Deploy</a>
+  <a href="https://valorantprojectleadmentoring.herokuapp.com">Deploy</a>
   
 
 ## Authors
